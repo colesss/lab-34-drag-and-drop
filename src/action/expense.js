@@ -19,6 +19,4 @@ export const update = (expense) => ({
 export const destroy = (expense) => ({
   type: 'EXPENSE_DESTROY',
   payload: expense,
-})
-
-
+});
